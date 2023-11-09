@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
     <title>xAPI Data Fetching and Processing Script</title>
 </head>
@@ -51,6 +48,3 @@ limit = 10
     <h2>License</h2>
     <p>This script is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-</body>
-
-</html>
