@@ -10,3 +10,45 @@ Before using this script, ensure you have basic HTTP username and password authe
 
 ```bash
 pip install requests numpy pandas
+
+## Usage
+
+### 1. Authentication and API Key
+
+Replace the placeholder values in the script with your actual LRS credentials:
+
+```python
+user = 'your_username'
+password = 'your_password'
+api_key = 'your_api_key'
+
+## 2. Time Period Parameters
+
+Adjust the `prev` and `curr` parameters to specify the time period for data extraction:
+
+```python
+prev = 'yyyy-mm-ddTHH:MM:SSZ'  # Start date and time
+curr = 'yyyy-mm-ddTHH:MM:SSZ'  # End date and time
+
+## 3. Data Extraction Limit
+
+Set the desired limit for the number of statements to retrieve:
+
+```python
+limit = 10
+
+## 4. Execute the Script
+
+Run the script, and the cleaned and formatted data will be stored in a Pandas DataFrame named `df`:
+
+```bash
+python your_script_name.py
+
+## Contributing
+
+Feel free to contribute to the development of this script by submitting issues or pull requests.
+
+## License
+
+This script is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
