@@ -8,8 +8,6 @@ This Python script is designed to fetch xAPI data from a specified Trax Learning
 
 Before using this script, ensure you have basic HTTP username and password authentication, an API Key provided by TraxLRS, and the necessary dependencies installed. You can install them using:
 
-```bash
-pip install requests numpy pandas
 
 ## Usage
 
